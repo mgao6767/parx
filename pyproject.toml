@@ -1,0 +1,26 @@
+[project]
+name = "parx"
+version = "0.0.1rc1"
+authors = [{ name = "Mingze Gao", email = "adrian.gao@outlook.com" }]
+description = "Parallel execution made easy"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Operating System :: OS Independent",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+]
+license = { text = "GPLv3" }
+dependencies = ["tqdm"]
+
+[project.urls]
+homepage = "https://github.com/mgao6767/parx"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
